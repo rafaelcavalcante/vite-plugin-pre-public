@@ -17,12 +17,17 @@
     "url": "https://github.com/rafaelcavalcante/vite-plugin-pre-public/issues"
   },
   "homepage": "https://github.com/rafaelcavalcante/vite-plugin-pre-public#readme",
-  "scripts": {},
+  "scripts": {
+    "release": "standard-version --no-verify --release-as"
+  },
   "peerDependencies": {
     "vite": "^6.2.0"
   },
   "dependencies": {
     "@types/node": "^22.13.10",
     "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
