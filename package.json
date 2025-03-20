@@ -1,0 +1,28 @@
+{
+  "name": "vite-plugin-pre-public",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "author": "Rafael Cavalcante (https://github.com/rafaelcavalcante)",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rafaelcavalcante/vite-plugin-pre-public.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelcavalcante/vite-plugin-pre-public/issues"
+  },
+  "homepage": "https://github.com/rafaelcavalcante/vite-plugin-pre-public#readme",
+  "scripts": {},
+  "peerDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7"
+  }
+}
