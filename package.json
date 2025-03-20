@@ -5,7 +5,7 @@
   "type": "module",
   "author": "Rafael Cavalcante (https://github.com/rafaelcavalcante)",
   "license": "MIT",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
   "files": [
     "src"
   ],
