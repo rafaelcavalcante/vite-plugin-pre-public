@@ -17,6 +17,13 @@
     "url": "https://github.com/rafaelcavalcante/vite-plugin-pre-public/issues"
   },
   "homepage": "https://github.com/rafaelcavalcante/vite-plugin-pre-public#readme",
+  "keywords": [
+    "vite",
+    "vitejs",
+    "environment-variables",
+    "pre-public",
+    "public-folder"
+  ],
   "scripts": {
     "release": "standard-version --no-verify --release-as"
   },
