@@ -25,6 +25,7 @@
     "public-folder"
   ],
   "scripts": {
+    "build": "tsup src/index.ts --format esm",
     "release": "standard-version --no-verify --release-as"
   },
   "peerDependencies": {
@@ -35,6 +36,7 @@
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "standard-version": "^9.5.0"
+    "standard-version": "^9.5.0",
+    "tsup": "^8.4.0"
   }
 }
