@@ -28,7 +28,7 @@
     "test": "vitest --coverage",
     "test:watch": "vitest --coverage --watch",
     "test:ci": "vitest",
-    "build": "tsup src/index.ts --format esm",
+    "build": "tsup src/index.ts --format esm && cp src/index.d.ts dist",
     "release": "standard-version --no-verify --release-as"
   },
   "peerDependencies": {
