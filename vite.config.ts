@@ -8,8 +8,9 @@ export default defineConfig({
     setupFiles: "vitest.setup.ts",
     watch: false,
     coverage: {
+      provider: "istanbul",
       reporter: ["html"],
-      include: ["src/**/*.test.*"],
+      exclude: ["!src/**/*.test.*"],
     },
   },
 });
