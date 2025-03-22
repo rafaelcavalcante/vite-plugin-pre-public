@@ -1,1 +1,8 @@
+# Node
 node_modules
+
+# Testing
+coverage
+
+# Build
+dist
