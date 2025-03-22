@@ -1,6 +1,6 @@
 import { expect, it, vi, describe } from "vitest";
 
-import { logMessage } from "./logMessage";
+import { logMessage } from ".";
 
 describe("The logMessage util", () => {
   const spyConsoleLog = vi.spyOn(console, "log").mockImplementation(() => {});

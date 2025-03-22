@@ -10,7 +10,7 @@ export default defineConfig({
     coverage: {
       provider: "istanbul",
       reporter: ["html"],
-      exclude: ["!src/**/*.test.*"],
+      include: ["src/**/*.*"],
     },
   },
 });
