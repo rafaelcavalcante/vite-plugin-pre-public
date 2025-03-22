@@ -27,6 +27,7 @@
   "scripts": {
     "test": "vitest --coverage",
     "test:watch": "vitest --coverage --watch",
+    "test:ci": "vitest",
     "build": "tsup src/index.ts --format esm",
     "release": "standard-version --no-verify --release-as"
   },
