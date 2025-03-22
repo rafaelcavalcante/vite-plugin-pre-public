@@ -25,6 +25,8 @@
     "public-folder"
   ],
   "scripts": {
+    "test": "vitest --coverage",
+    "test:watch": "vitest --coverage --watch",
     "build": "tsup src/index.ts --format esm",
     "release": "standard-version --no-verify --release-as"
   },
@@ -33,10 +35,14 @@
   },
   "dependencies": {
     "@types/node": "^22.13.10",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "jest": "^29.7.0"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "3.0.9",
+    "jsdom": "^26.0.0",
     "standard-version": "^9.5.0",
-    "tsup": "^8.4.0"
+    "tsup": "^8.4.0",
+    "vitest": "^3.0.9"
   }
 }
