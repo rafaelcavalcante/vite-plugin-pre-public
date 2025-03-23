@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.0.0...v3.1.0) (2025-03-23)
+
+
+### Features
+
+* add typing ([cd6ed18](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/cd6ed183edc362c431867231a48020f2d94aa499))
+* apply new util ([c55955d](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/c55955dff1df2d63d838371662d306a91c37ba39))
+* move parseAndReplaceEnvironmentVariables to a different file ([8fc516c](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/8fc516c10e309b0b3ed5c7d4793b02041ae317c8))
+* update yarn lockfile ([af40f47](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/af40f47973d73ad94d3fe5f8f8e0a315783994da))
+* **Utils:** move logMessage to utils folder ([06ce7a8](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/06ce7a81b00348d24e45c438756e6d2b4a3bbb4e))
+
 ## [3.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v2.0.0...v3.0.0) (2025-03-21)
 
 ## [2.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v1.0.1...v2.0.0) (2025-03-20)
