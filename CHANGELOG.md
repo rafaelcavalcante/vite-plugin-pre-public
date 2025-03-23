@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.1](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.1.0...v3.1.1) (2025-03-23)
+
+
+### Bug Fixes
+
+* fix branch name in test badge ([506d8ec](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/506d8ec50d35f384e318fc5d406435bfde21799a))
+
 ## [3.1.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.0.0...v3.1.0) (2025-03-23)
 
 
