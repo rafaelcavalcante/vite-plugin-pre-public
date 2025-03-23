@@ -1,7 +1,10 @@
-import { Plugin, loadEnv } from "vite";
+import { Plugin } from "vite";
 import fs from "node:fs/promises";
 import path from "node:path";
 import dotenv from "dotenv";
+
+import { logMessage } from "./utils/logMessage";
+import { parseAndReplaceEnvVariables } from "./utils/parseAndReplaceEnvVariables";
 
 /**
  * Parses files from a pre-publication source and processes them into a plugin.
@@ -14,32 +17,6 @@ function parseFromPrePublic({ files }: { files: string[] }): Plugin {
   let outputFolder: string;
 
   dotenv.config();
-
-  function logMessage(message: string) {
-    const pluginLabel = "\x1b[38;5;45m\x1b[1m[plugin-pre-public]\x1b[0m";
-    console.log(`${pluginLabel} ${message}`);
-  }
-
-  async function parseAndReplaceEnvVariables(filePath: string, mode: string) {
-    let fileContent = await fs.readFile(filePath, "utf-8");
-
-    const env = loadEnv(mode, path.resolve(process.cwd()));
-
-    const templateLiteralRegex = /\$\{?\s*import\.meta\.env\.(\w+)\s*\}?/g;
-    const nonLiteralRegex = /\bimport\.meta\.env\.(\w+)\b/g;
-
-    fileContent = fileContent.replace(
-      templateLiteralRegex,
-      (_, variableName) => env[variableName] || ""
-    );
-
-    fileContent = fileContent.replace(
-      nonLiteralRegex,
-      (_, variableName) => env[variableName] || ""
-    );
-
-    return fileContent;
-  }
 
   return {
     name: "vite-plugin-pre-public",

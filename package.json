@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-pre-public",
   "private": false,
-  "version": "3.0.0",
+  "version": "3.1.0",
   "type": "module",
   "author": "Rafael Cavalcante (https://github.com/rafaelcavalcante)",
   "license": "MIT",
@@ -25,7 +25,10 @@
     "public-folder"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm",
+    "test": "vitest --coverage",
+    "test:watch": "vitest --coverage --watch",
+    "test:ci": "vitest",
+    "build": "tsup src/index.ts --format esm && cp src/index.d.ts dist",
     "release": "standard-version --no-verify --release-as"
   },
   "peerDependencies": {
@@ -33,10 +36,15 @@
   },
   "dependencies": {
     "@types/node": "^22.13.10",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "jest": "^29.7.0"
   },
   "devDependencies": {
+    "@vitest/coverage-istanbul": "3.0.9",
+    "@vitest/coverage-v8": "3.0.9",
+    "jsdom": "^26.0.0",
     "standard-version": "^9.5.0",
-    "tsup": "^8.4.0"
+    "tsup": "^8.4.0",
+    "vitest": "^3.0.9"
   }
 }
