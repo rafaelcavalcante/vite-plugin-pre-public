@@ -2,7 +2,8 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 ![Automated Tests](https://github.com/rafaelcavalcante/vite-plugin-pre-public/actions/workflows/test.yml/badge.svg?branch=main)
-![Downloads](https://img.shields.io/npm/dm/vite-plugin-pre-public.svg)
+![NPM Downloads](https://img.shields.io/npm/dm/vite-plugin-pre-public.svg)
+![NPM Version](https://img.shields.io/npm/v/vite-plugin-pre-public.svg)
 
 This plugin enables you to parse environment variables in files that need to be used through the public folder.
 
