@@ -6,6 +6,7 @@
   "author": "Rafael Cavalcante (https://github.com/rafaelcavalcante)",
   "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "src"
   ],
