@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v5.0.0...v6.0.0) (2025-03-24)
+
+
+### Features
+
+* add tsconfig ([79a6d75](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/79a6d754d9797df45ad1a301b9602a456b37cb98))
+
 ## [5.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v4.0.0...v5.0.0) (2025-03-24)
 
 

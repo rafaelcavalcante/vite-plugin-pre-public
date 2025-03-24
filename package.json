@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-pre-public",
   "private": false,
-  "version": "5.0.0",
+  "version": "6.0.0",
   "type": "module",
   "author": "Rafael Cavalcante (https://github.com/rafaelcavalcante)",
   "license": "MIT",
