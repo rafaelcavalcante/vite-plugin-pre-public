@@ -8,7 +8,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "src"
+    "src",
+    "dist/index.d.ts",
+    "dist/index.js"
   ],
   "repository": {
     "type": "git",
@@ -29,7 +31,7 @@
     "test": "vitest --coverage",
     "test:watch": "vitest --coverage --watch",
     "test:ci": "vitest",
-    "build": "tsup src/index.ts --format esm && cp src/index.d.ts dist",
+    "build": "rm -rf dist && tsup src/index.ts --format esm --dts",
     "release": "standard-version --no-verify --release-as"
   },
   "peerDependencies": {
@@ -46,6 +48,7 @@
     "jsdom": "^26.0.0",
     "standard-version": "^9.5.0",
     "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
     "vitest": "^3.0.9"
   }
 }
