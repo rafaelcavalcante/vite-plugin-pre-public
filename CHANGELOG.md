@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.1.2...v4.0.0) (2025-03-24)
+
+
+### Bug Fixes
+
+* add dist folder ([a84a3ce](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/a84a3ced1490309a5444fa098e66b65ca90b1311))
+
 ### [3.1.2](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.1.1...v3.1.2) (2025-03-23)
 
 ### [3.1.1](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.1.0...v3.1.1) (2025-03-23)
