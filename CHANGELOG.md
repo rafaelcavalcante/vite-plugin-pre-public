@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v4.0.0...v5.0.0) (2025-03-24)
+
+
+### Features
+
+* **npm:** add types to package.json ([4538988](https://github.com/rafaelcavalcante/vite-plugin-pre-public/commit/45389887eb130fa95dbc6f021329ec3d6c28b21e))
+
 ## [4.0.0](https://github.com/rafaelcavalcante/vite-plugin-pre-public/compare/v3.1.2...v4.0.0) (2025-03-24)
 
 
